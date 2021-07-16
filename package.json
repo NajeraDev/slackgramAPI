@@ -1,0 +1,30 @@
+{
+  "name": "teleslack",
+  "version": "1.0.0",
+  "description": "Comunicates Slack and a Telegram Group",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NajeraDev/teleslack.git"
+  },
+  "keywords": [
+    "telegram",
+    "slack"
+  ],
+  "author": "Emmanuel Nájera",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NajeraDev/teleslack/issues"
+  },
+  "homepage": "https://github.com/NajeraDev/teleslack#readme",
+  "dependencies": {
+    "@slack/events-api": "^3.0.1",
+    "@slack/rtm-api": "^6.0.0",
+    "@slack/web-api": "^6.2.4",
+    "dotenv": "^10.0.0",
+    "node-telegram-bot-api": "^0.53.0"
+  }
+}
