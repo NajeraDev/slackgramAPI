@@ -1,5 +1,5 @@
 require('dotenv').config();
-const TelegramBot = require('node-telegram-bot-api');
+const TelegramBot = require('git');
 const { WebClient } = require('@slack/web-api');
 const { createEventAdapter } = require('@slack/events-api');
 
@@ -15,6 +15,11 @@ const slackEvents = createEventAdapter(slackSigningSecret);
 const slackClient = new WebClient(slackToken);
 
 let sender = ""
+
+bot.on('message', ctx =>{
+    ctx.update.message.from.id === 1134831111 ?
+    ctx.reply('estas texteando') : null
+})
 
 slackEvents.on('message', (event) => {
     if (event.user == "U0283K4QTSN" || event.user == "U028G9HTSQZ") {
