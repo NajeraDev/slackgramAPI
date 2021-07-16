@@ -17,13 +17,17 @@ const slackClient = new WebClient(slackToken);
 let sender = ""
 
 slackEvents.on('message', (event) => {
-    if (event.user != "U028TRUCLEL") {
+    if (event.user != "U0283K4QTSN" || "U028G9HTSQZ") {
         console.log(`Got message from user ${event.user}: ${event.text}`);
         console.log(event);
         (async () => {
             switch (event.user) {
                 case 'U0283K4QTSN':
                     sender = "Najera"
+                    break;
+
+                case 'U028G9HTSQZ':
+                    sender = "Alex"
                     break;
             
                 default:
