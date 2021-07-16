@@ -31,7 +31,7 @@ slackEvents.on('message', (event) => {
                     break;
             }
             try{
-                //await slackClient.chat.postMessage({ channel: event.channel, text: `Hello <@${event.user}>! :taco:`}); aaaa
+                //await slackClient.chat.postMessage({ channel: event.channel, text: `Hello <@${event.user}>! :taco:`}); aaa
                 bot.sendMessage(chatId, `<${sender}> envio a Slack: ${event.text}`);
             } catch(error){
                 console.log(error);
