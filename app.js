@@ -1,5 +1,4 @@
 require('dotenv').config();
-const TelegramBot = require('git');
 const { WebClient } = require('@slack/web-api');
 const { createEventAdapter } = require('@slack/events-api');
 
