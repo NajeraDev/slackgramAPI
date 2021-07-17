@@ -16,11 +16,6 @@ const slackClient = new WebClient(slackToken);
 
 let sender = ""
 
-bot.on('message', ctx =>{
-    ctx.update.message.from.id === 1134831111 ?
-    ctx.reply('estas texteando') : null
-})
-
 slackEvents.on('message', (event) => {
     if (event.user == "U0283K4QTSN" || event.user == "U028G9HTSQZ") {
         console.log(`Got message from user ${event.user}: ${event.text}`);
@@ -56,7 +51,6 @@ slackEvents.on('error', console.error);
 
 slackEvents.start(port).then(() =>{
     console.log(`Server started on port ${port}`);
-    bot.launch()
 })
 
 
