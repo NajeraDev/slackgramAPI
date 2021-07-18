@@ -1,2 +1,5 @@
 /node_modules
 .env
+env/
+docs/build
+docs/source/_templates/
