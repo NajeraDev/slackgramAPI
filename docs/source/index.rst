@@ -4,10 +4,10 @@ Welcome to Slackgram's documentation!
 Welcome to the one and only guide to Slackgram! If you are looking for a way to forward your Slack messages to a Telegram group,
 you are in the right place.
 
-Who Slacgram for?
+Who is Slackgram for?
 
 If you are like me, who hates the lack of notifications in Slack chanels, then this bot will help you a lot!
-Following these steps, you can create a well rounded Slacgram bot!
+Following these steps, you can create a well rounded Slackgram bot!
 
 You don't need any coding knowledge to create a Slackgram bot, but you do need patience, and attention to detail.
 
